@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding : 0;
+}
+ul, ol menu{
+    list-style-type: none;
+}
+body{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 8%, rgba(253,29,29,1) 50%, rgba(253,70,40,1) 64%, rgba(252,176,69,1) 100%);
+}
+
+.container{
+    max-width: 750px;
+    margin : 0 auto;
+    text-align: center;
+    padding: 12px;
+}
+h1{
+    margin-bottom: 24px;
+    
+}
+#number{
+    width: 35%;
+    background-color:rgb(255, 216, 157) ;
+    padding: 12px;
+}
+#btn{
+    padding: 12px;
+    background-color: rgb(172, 21, 172)
+}
+li{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    border: 1px double black;
+    text-align: left;
+    padding: 8px;
+}
+.result{
+   font-size: 20px;
+}
+.player-choice {
+   font-size: 20px;
+   color: black
+}
+   
+.winner > h1{
+   font-size: 100px; 
+   color:rgb(27, 27, 27) ;;
+}
+   
